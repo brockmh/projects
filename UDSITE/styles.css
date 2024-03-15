@@ -3,26 +3,48 @@ body {
     background-color: #f8f9fa;
 }
 
-.jumbotron {
+header {
     background-color: #007bff;
     color: #fff;
-    padding: 50px;
-    border-radius: 10px;
+    padding: 40px 0;
+    text-align: center;
 }
 
-.background {
+main {
+    padding: 60px 0;
+}
+
+.feature {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.btn-primary {
+.feature:hover {
+    background-color: #f8f9fa; /* Change the background color on hover */
+}
+
+.footer {
     background-color: #343a40;
-    border-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.btn-primary:hover {
-    background-color: #1d2124;
-    border-color: #1d2124;
+.custom-header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.countdown-timer {
+    font-size: 24px;
+    margin-top: 20px;
 }
